@@ -1,0 +1,12 @@
+.reference {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  height: 300px;
+  width: 100% - 24px;
+}
+
+.reference .list1 {
+  margin-top: 70px;
+}

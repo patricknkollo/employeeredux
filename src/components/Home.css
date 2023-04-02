@@ -1,0 +1,26 @@
+.inside {
+  display: flex;
+}
+
+.left-inside {
+  flex: 4;
+  justify-content: start;
+  text-align: left;
+}
+.inside-right {
+  flex: 1;
+  background-color: white;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.ville-form .TextField {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.johann {
+  margin-bottom: 75px;
+  width: 60%;
+  height: 400px;
+}
