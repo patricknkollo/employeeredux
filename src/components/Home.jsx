@@ -38,7 +38,19 @@ function HomePage() {
             <Toolbar />
             <div className="inside">
               <div className="left-inside">
-                <Typography paragraph>
+                <img
+                  className="johann"
+                  src="johannesbourg.png"
+                  alt="la ville"
+                ></img>
+                <h2>Johannesbourg Town</h2>
+                <Typography
+                  paragraph
+                  fontFamily={"serif"}
+                  textAlign={"justify"}
+                  fontSize={19}
+                  marginBottom={5}
+                >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Rhoncus dolor purus non enim praesent elementum facilisis leo
@@ -134,6 +146,116 @@ function HomePage() {
             <Toolbar />
           </Box>
         </Box>
+      </div>
+      <div className="reference">
+        <div className="list1">
+          <List>
+            <ListItem key={"java"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"java"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"SQL"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"SQL"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"python"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"python"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"C++"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"C++"} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </div>
+        <div className="list1">
+          <List>
+            <ListItem key={"php"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"php"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"CSS"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"CSS"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"javascript"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"javascript"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"HTML"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"HTML"} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </div>
+        <div className="list1">
+          <List>
+            <ListItem key={"VBA"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"VBA"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"Excel"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"Excel"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"React JS"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary={"React JS"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"Angular"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <MailIcon />
+                </ListItemIcon>
+                <ListItemText primary={"Angular"} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </div>
       </div>
       <div className="footer">
         <FooterComponent />

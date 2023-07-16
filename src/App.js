@@ -10,17 +10,15 @@ import VillesListComponent from "./components/VillesList";
 function App() {
   return (
     <div className="App">
-      <VillesListComponent />
-      {/* <BrowserRouter>
+      {/* <VillesListComponent /> */}
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />}>
-            <Route path="/pays" element={<PaysListComponent />} />
-            <Route path="/villes" element={<VillesListComponent />} />
-            <Route path="/employees" element={<EmployeesListComponent />} />
-          </Route>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/pays" element={<PaysListComponent />} />
+          <Route path="/villes" element={<VillesListComponent />} />
+          <Route path="/employees" element={<EmployeesListComponent />} />
         </Routes>
-      </BrowserRouter> */}
-      ,
+      </BrowserRouter>
     </div>
   );
 }

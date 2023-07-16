@@ -22,16 +22,15 @@ export const cityReducers = (state = VilleInitialState, action) => {
       return { ...state, villes: action.payload };
 
     case UPDATE_CITY_FRONTEND:
-      return state.villes.map((ville, id) => {
-        if (id === action.payload.villeid) {
+      return state.villes.map((v) => {
+        if (v.id === action.payload.villeid) {
           // This isn't the item we care about - keep it as-is
-          return {
-            ...ville,
-            name: action.payload.ville.name,
-            paysname: action.payload.ville.paysname,
-            paysid: action.payload.ville.paysid,
-          };
+
+          v.name = action.payload.ville.name;
+          v.paysname = action.payload.ville.paysname;
+          v.paysid = action.payload.ville.paysid;
         }
+        return v;
       });
 
     case UPDATE_CITY:

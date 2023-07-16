@@ -45,6 +45,20 @@ function SidebarComponent() {
             </ListItemButton>
           </ListItem>
           <ListItem
+            key={"ville"}
+            disablePadding
+            component="a"
+            href="http://localhost:3000/employees"
+            style={{ color: "initial" }}
+          >
+            <ListItemButton>
+              <ListItemIcon>
+                <InboxIcon />
+              </ListItemIcon>
+              <ListItemText primary={"employees"} />
+            </ListItemButton>
+          </ListItem>
+          <ListItem
             key={"pays"}
             disablePadding
             component="a"
@@ -62,7 +76,7 @@ function SidebarComponent() {
             key={"continent"}
             disablePadding
             component="a"
-            href="http://localhost:3000/pays"
+            href="http://localhost:3000/continent"
             style={{ color: "initial" }}
           >
             <ListItemButton>

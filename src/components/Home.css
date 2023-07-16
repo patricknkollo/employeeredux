@@ -5,7 +5,7 @@
 .left-inside {
   flex: 4;
   justify-content: start;
-  text-align: left;
+  text-align: center;
 }
 .inside-right {
   flex: 1;

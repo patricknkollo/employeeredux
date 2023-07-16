@@ -49,7 +49,7 @@ function FooterComponent() {
             }}
           >
             <Typography variant="caption" color="initial">
-              Georges Leblanc Copyright ©2022. [] Limited
+              Georges Leblanc Copyright ©2023. [] Limited
             </Typography>
           </Box>
         </Container>

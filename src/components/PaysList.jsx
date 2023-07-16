@@ -70,7 +70,13 @@ function PaysListComponent() {
             <Toolbar />
             <div className="inside">
               <div className="left-inside">
-                <Typography paragraph>
+                <Typography
+                  paragraph
+                  fontFamily={"serif"}
+                  textAlign={"justify"}
+                  fontSize={19}
+                  marginBottom={5}
+                >
                   PAYS LIST Lorem ipsum dolor sit amet, consectetur adipiscing
                   elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua. Rhoncus dolor purus non enim praesent elementum

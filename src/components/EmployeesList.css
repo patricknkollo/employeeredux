@@ -2,11 +2,14 @@
   background-color: lightseagreen;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   margin-bottom: 80px;
   height: 300px;
   width: 100% - 24px;
+  margin-left: 240px;
 }
 
 .reference .list1 {
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-bottom: 20;
 }
